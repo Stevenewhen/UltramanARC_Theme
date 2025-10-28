@@ -1,0 +1,34 @@
+{
+  "name": "ultraman-arc-theme",
+  "displayName": "ULTRAMAN ARC Theme",
+  "description": "A VS Code theme inspired by ULTRAMAN ARC, based on SKIP",
+  "version": "1.0.0",
+  "publisher": "Stevenewhen",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "ultraman",
+    "arc",
+    "skip",
+    "color-theme"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "ULTRAMAN ARC",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ultraman-arc-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Stevenewhen/UltramanARC_Theme"
+  },
+  "license": "MIT"
+}
