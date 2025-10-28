@@ -1,0 +1,18 @@
+{
+  "name": "ultraman-arc",
+  "displayName": "Ultraman ARC",
+  "description": "Dark sci-fi HUD theme inspired by Ultraman ARC.",
+  "version": "0.0.1",
+  "publisher": "yourname",
+  "engines": { "vscode": "^1.85.0" },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Ultraman ARC",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Ultraman ARC-color-theme.json"
+      }
+    ]
+  }
+}

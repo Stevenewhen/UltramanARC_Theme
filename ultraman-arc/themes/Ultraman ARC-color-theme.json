@@ -1,0 +1,57 @@
+{
+  "name": "Ultraman ARC",
+  "type": "dark",
+  "colors": {
+    "editor.foreground": "#FFFFFF",
+    "editor.background": "#000000",
+    "editorCursor.foreground": "#FF0000",
+    "editor.lineHighlightBackground": "#333333",
+    "editorLineNumber.foreground": "#888888",
+    "editor.selectionBackground": "#444444",
+    "editor.selectionHighlightBackground": "#555555",
+    "editor.wordHighlightBackground": "#666666",
+    "editor.wordHighlightStrongBackground": "#777777",
+    "activityBar.background": "#1E1E1E",
+    "activityBar.foreground": "#FFFFFF",
+    "sideBar.background": "#252526",
+    "sideBar.foreground": "#FFFFFF",
+    "statusBar.background": "#007ACC",
+    "statusBar.foreground": "#FFFFFF",
+    "titleBar.activeBackground": "#1E1E1E",
+    "titleBar.activeForeground": "#FFFFFF",
+    "titleBar.inactiveBackground": "#2A2A2A",
+    "titleBar.inactiveForeground": "#CCCCCC"
+  },
+  "tokenColors": [
+    {
+      "scope": ["comment", "comment.block"],
+      "settings": {
+        "foreground": "#6A9955"
+      }
+    },
+    {
+      "scope": ["keyword", "keyword.control"],
+      "settings": {
+        "foreground": "#569CD6"
+      }
+    },
+    {
+      "scope": ["variable", "variable.parameter"],
+      "settings": {
+        "foreground": "#9CDCFE"
+      }
+    },
+    {
+      "scope": ["string", "string.quoted"],
+      "settings": {
+        "foreground": "#CE9178"
+      }
+    },
+    {
+      "scope": ["constant", "constant.numeric"],
+      "settings": {
+        "foreground": "#B5CEA8"
+      }
+    }
+  ]
+}
